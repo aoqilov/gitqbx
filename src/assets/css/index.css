@@ -1,0 +1,225 @@
+@import "tailwindcss";
+
+/*=========================| FONTS |===========================*/
+@font-face {
+  font-family: MontserratLight;
+  src: url("/assets/fonts/montserrat/Montserrat-Light.ttf");
+}
+@font-face {
+  font-family: MontserratThin;
+  src: url("/assets/fonts/montserrat/Montserrat-Thin.ttf");
+}
+@font-face {
+  font-family: MontserratExtraLight;
+  src: url("/assets/fonts/montserrat/Montserrat-ExtraLight.ttf");
+}
+@font-face {
+  font-family: MontserratMedium;
+  src: url("/assets/fonts/montserrat/Montserrat-Medium.ttf");
+}
+@font-face {
+  font-family: MontserratRegular;
+  src: url("/assets/fonts/montserrat/Montserrat-Regular.ttf");
+}
+@font-face {
+  font-family: Hero-1;
+  src: url("/assets/fonts/ofont.ru_Hero.ttf");
+}
+/*=============================================================*/
+/* 
+//
+//
+//
+//
+//
+//
+//
+//
+//
+//
+//
+//
+//
+//
+*/
+:root {
+  --base-font-size: 14px;
+  /* GLOBAL TEXT-SIZE */
+
+  --loader-bg: #282828;
+  --main-color: #711ce9;
+  --second-color: #711ce968;
+  --notify-color: #ef9f66;
+  --grey-color: #7a7a7a;
+
+  --red-color: #ec711f;
+
+  --text-color: #000;
+  --subtext-color: #acacac;
+  --main-bg-nav: #f8f8f8;
+
+  /*-------------------------------- background-color */
+  --bg-main: #fff;
+  --bg-second: #dfdfdf;
+  /* sidebar */
+  --bg-sidebar-second: #fff;
+  --bg-theme-iconback: #e4e4e77c;
+  /*  */
+  /*-------------------------------- text-color */
+  --text-def: #000;
+  --text-heading: #000;
+  --text-subtext: #acacac;
+  --text-label: #00000078;
+  --text-lbrand-dwhite: var(--main-color);
+  --text-lgray-dgreydark: #a9a8ab;
+  --text-lblack-dgreydark: #000;
+  --text-nodata: rgb(88, 88, 88);
+
+  /*  */ /*  */
+  /*-------------------------------- border-color */
+  --border-main: #1f1d1d;
+  --border-input: #939296;
+  --border-list: #711ce92b;
+  /* ------------------------------- ui-color */
+  --separator-base: #e4e4e7;
+  --navButton-icon: #545255;
+  --navButton-icon-footer: #000000;
+  --icon-lbrand-dwhite50: var(--main-color);
+
+  /* other */
+
+  font-family: "MontserratRegular", "Times New Roman", Times, serif !important;
+  font-size: 1em;
+  -webkit-user-select: none; /* Chrome/Safari */
+  -moz-user-select: none; /* Firefox */
+  -ms-user-select: none; /* IE/Edge */
+  user-select: none; /* Стандартный синтаксис */
+}
+
+/* color DARK mode */
+html.dark {
+  /*-------------------------------- background-color */
+  --bg-main: #09090b;
+  --bg-second: #262626;
+  /* sidebar */
+  --bg-sidebar-second: #262626;
+  --bg-theme-iconback: #262626;
+  /*-------------------------------- text-color */
+  --text-def: #fff;
+  --text-heading: #fff;
+  --text-subtext: #acacac;
+  --text-label: #acacac;
+  --text-lbrand-dwhite: #fff;
+  --text-lgray-dgreydark: #b0b0b0;
+  --text-lblack-dgreydark: #d2d2d2;
+  --text-nodata: rgb(148, 140, 140);
+  /*-------------------------------- border-color */
+  --border-main: #1f1d1d;
+  --border-input: gray;
+  --border-list: #835db96f;
+  /* ------------------------------- ui-color */
+  --separator-base: rgb(54, 54, 54);
+  --navButton-icon: #89878a;
+  --navButton-icon-footer: #ffffff;
+  --icon-lbrand-dwhite50: rgb(184, 184, 184);
+}
+/*  */
+/* 
+//
+//
+//
+//
+//
+//
+//
+//
+//
+//
+//
+//
+//
+//
+//
+//
+
+
+*/
+::-webkit-scrollbar {
+  height: 0;
+  width: 0; /* ширина для вертикального скролла */
+  background-color: #575757;
+}
+::-webkit-scrollbar-thumb {
+  background-color: #96949b;
+  border-radius: 1em;
+}
+::-webkit-scrollbar-thumb:hover {
+  cursor: pointer;
+}
+input[type="date"]::-webkit-calendar-picker-indicator {
+  display: none;
+  -webkit-appearance: none; /* Optional, but helps ensure consistency */
+}
+
+*::-webkit-calendar-picker-indicator {
+  display: none;
+  -webkit-appearance: none; /* Optional, but helps ensure consistency */
+}
+
+* {
+  font-size: var(--base-font-size);
+}
+
+.general {
+  padding: 20px;
+}
+
+@theme {
+  --animate-fading: fading 1s ease-in-out;
+  @keyframes fading {
+    0% {
+      opacity: 0;
+    }
+    100% {
+      opacity: 1;
+    }
+  }
+}
+
+.rdp-root {
+  /* border-width: 2px;
+    border-color: var(--main-color);
+    border-radius: 6px;
+    padding: 10px; */
+
+  --rdp-accent-color: var(--main-color);
+  --rdp-day-height: 42px;
+  --rdp-day-width: 42px;
+  --rdp-range_middle-background-color: #c69cf7;
+  --rdp-dropdown-gap: 0;
+}
+.rdp-selected {
+  font-weight: normal;
+  font-size: 1em;
+}
+
+/* .rdp-root[data-today="true"]{
+    border-width: 2px; 
+    border-radius: 100%;
+    border-color: #eee;
+}
+.rdp-dropdowns{
+    gap: 0;
+}
+.rdp-day[aria-selected=true]{
+    background: #C69CF7;
+    width: 42px;
+} */
+.rdp-week .rdp-today .rdp-day_button {
+  border: 2px solid var(--rs-border-primary);
+  border-radius: 15px;
+}
+.rdp-week .rdp-today[data-selected="true"] .rdp-day_button {
+  border: 0px;
+  color: #fff;
+}

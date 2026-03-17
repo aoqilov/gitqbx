@@ -1,0 +1,28 @@
+.offerSwiper {
+  position: relative;
+}
+
+/* default bullet - place at bottom of swiper card */
+.offerSwiper .swiper-pagination {
+  position: absolute;
+  left: 50%;
+  z-index: 999;
+  transform: translateX(-50%);
+  background-color: transparent;
+  z-index: 20;
+}
+.swiper-pagination-bullet {
+  width: 5px;
+  height: 5px;
+  background: #c4c4c4; /* grey dot */
+  opacity: 1;
+  border-radius: 9999px;
+}
+
+/* active bullet */
+.swiper-pagination-bullet-active {
+  background: #6a0dad;
+  width: 25px;
+  border-radius: 9999px;
+  transition: width 0.3s ease;
+}

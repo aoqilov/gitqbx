@@ -1,0 +1,41 @@
+.liquid-container {
+  position: relative;
+  border-radius: 50%;
+  overflow: hidden;
+  background-color: var(--bg-second);
+  display: flex;
+  align-items: center;
+  justify-content: center;
+}
+
+.percent-text {
+  font-size: 0.85em;
+  font-weight: bold;
+  z-index: 10;
+  transition: color 0.5s ease;
+}
+
+.wave-wrapper {
+  position: absolute;
+  width: 200%;
+  height: 100%;
+  left: 0;
+  
+  transition: top 0.6s cubic-bezier(0.4, 0, 0.2, 1);
+  animation: move-wave 3s linear infinite;
+}
+
+.wave-svg {
+  width: 100%;
+  height: 100%;
+  display: block;
+}
+
+@keyframes move-wave {
+  0% {
+    transform: translateX(0);
+  }
+  100% {
+    transform: translateX(-50%);
+  }
+}

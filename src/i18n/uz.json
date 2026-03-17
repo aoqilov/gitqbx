@@ -1,0 +1,420 @@
+{
+  "actions": {
+    "save": "Saqlash",
+    "cancel": "Bekor qilish",
+    "delete": "O‘chirish",
+    "edit": "Tahrirlash",
+    "add": "Qo‘shish",
+    "close": "Yopish",
+    "confirm": "Tasdiqlash",
+    "select": "Tanlash",
+    "deselect": "Tanlovni bekor qilish",
+    "share": "Ulashish",
+    "download": "Yuklab olish"
+  },
+
+  "errors": {
+    "required": "Bu maydon to‘ldirilishi shart.",
+    "minLength": "Kamida {min} ta belgi bo‘lishi kerak.",
+    "maxLength": "Maksimal uzunlik {max} ta belgidan oshmasligi kerak.",
+    "invalidEmail": "Iltimos, haqiqiy elektron pochta manzilini kiriting."
+  },
+  "menu": {
+    "label": {
+      "visibleName": "Meni qaysi ism bilan ko‘rishadi",
+      "canBeInvitedOrg": "Meni tashkilotga taklif qilish mumkin",
+      "canBeInvitedFam": "Meni oila guruhiga taklif qilish mumkin",
+      "interfaceLanguage": "Interfeys tili",
+      "theme": "Mavzu",
+      "fontSize": "Shrift o‘lchami",
+      "memoryStatus": "Xotira holati"
+    },
+    "placeholder": {},
+    "backtoMyTask": "Mening vazifalarimga qaytish",
+    "menuDefault": {
+      "logout": "Chiqish",
+      "myProfile": "Mening profilim",
+      "settings": "Sozlamalar",
+      "myTasks": "Mening vazifalarim",
+      "myProjects": "Mening loyihalarim",
+      "organizations": "Tashkilotlar",
+      "family": "Oila",
+      "sync": "Sinxronizatsiya",
+      "payments": "To‘lovlar",
+      "statistics": "Statistika"
+    },
+    "organizationMenu": {
+      "tasks": "Vazifalar",
+      "projectsManagement": "Loyihalarni boshqarish",
+      "membersManagement": "Ishtirokchilarni boshqarish",
+      "rolesManagement": "Rollarni boshqarish",
+      "teamsManagement": "Jamoalarni boshqarish",
+      "organizationSettings": "Tashkilot sozlamalari",
+      "reports": "Hisobotlar va statistika",
+      "payments": "To‘lovlar"
+    },
+    "familyMenu": {
+      "tasks": "Vazifalar",
+      "membersManagement": "Ishtirokchilarni boshqarish",
+      "rolesManagement": "Rollarni boshqarish",
+      "paramsManagement": "Parametrlarni boshqarish",
+      "payments": "To‘lovlar"
+    },
+    "footerMenu": {
+      "privacyPolicy": "Maxfiylik siyosati",
+      "guideHelp": "Qo‘llanma va yordam",
+      "support": "Qo‘llab-quvvatlash"
+    },
+    "menuProfile": {
+      "app": "Ilova",
+      "personalData": "Shaxsiy ma'lumotlar",
+      "myQrCode": "Takliflar uchun mening QR kodim",
+      "memoryStatus": "Xotira holati",
+      "totalUsed": "Jami ishlatilgan",
+      "images": "MB Tasvirlar",
+      "otherData": "MB Boshqa ma'lumotlar",
+      "ofWhich": "shundan:",
+      "free": "MB Bo‘sh",
+      "mb": "mb",
+      "themeModeLight": "Yorug‘ klassik",
+      "themeModeDark": "Qorong‘u klassik"
+    },
+    "menuWorkspace": {
+      "project": "Loyiha",
+      "title": "Loyihani boshqarish",
+      "routineTasks": "Rutinni vazifalarni boshqarish",
+      "members": "Ishtirokchilarni boshqarish",
+      "roles": "Rollarni boshqarish",
+      "policies": "Vazifa siyosatini boshqarish",
+      "statuses": "Statuslarni boshqarish",
+      "tagsGroup": "Teglarni boshqarish",
+      "themes": "Mavzularni boshqarish"
+    }
+  },
+  "workspace": {
+    "family": "Oila",
+    "organization": "Tashkilot",
+    "device": "Qurilma",
+    "familyTask": "Oila vazifalari",
+    "organizationTask": "Tashkilot vazifalari",
+    "myTask": "Mening vazifalarim",
+    "pages": {
+      "------------------------------1": "------------- workspace pages -------------",
+      "listworkspace": {
+        "list": "Ro‘yxat",
+        "invitations": "Taklifnomalar",
+        "participants": "Ishtirokchilar",
+        "accept": "Qabul qilish"
+      },
+      "projectsws": {
+        "title": "Loyihalar",
+        "titleLitle": "loyiha",
+        "titleEdit": "Loyihani tahrirlash",
+        "titleAdd": "Loyiha qo‘shish",
+        "titleDelete": "Loyihani o‘chirish",
+        "btnEdit": "O‘zgarishlarni saqlash",
+        "btnSave": "Loyihani yaratish",
+        "btnDelete": "Loyihani o‘chirish",
+        "holdProject": "O‘zgartirish yoki o‘chirish uchun loyiha ustida 1 soniya ushlab turing.",
+        "tapProject": "Boshqaruv menyusini ochish uchun 1 marta bosing",
+        "participants": "Ishtirokchilar",
+        "textDelete": "Siz ushbu loyihani o‘chirmoqchimisiz?",
+
+        "placeholder": {
+          "search": "Loyihalarni qidirish...",
+          "projectName": "Loyiha nomini kiriting...",
+          "projectParticipants": "Loyihaga ishtirokchilarni qo‘shing",
+          "pinnedTeams": "Belgilangan jamoalarni tanlang"
+        },
+        "label": {
+          "projectName": "Loyiha nomi",
+          "projectParticipants": "Loyihaga ishtirokchilar",
+          "pinnedTeams": "Belgilangan jamoalar"
+        },
+        "errorInput": {
+          "required": "Ushbu maydon to‘ldirilishi shart."
+        }
+      },
+      "membersws": {
+        "list": "Ishtirokchilar ro‘yxati",
+        "invitations": "Taklifnomalar",
+        "participants": "Ishtirokchilar",
+        "titleLitle": "ishtirokchi",
+        "titleEdit": "Ishtirokchini tahrirlash",
+        "titleAdd": "Ishtirokchi qo‘shish",
+        "titleDelete": "Ishtirokchini o‘chirish",
+        "btnEdit": "O‘zgarishlarni saqlash",
+        "btnSave": "Ishtirokchi yaratish",
+        "btnDelete": "Ishtirokchini o‘chirish",
+        "btncancel": "Bekor qilish",
+        "deleteText": "Siz ushbu ishtirokchini o‘chirmoqchimisiz?",
+
+        "placeholder": {
+          "search": "Ishtirokchilarni qidirish...",
+          "createMember": "Foydalanuvchi nomini kiriting (username)",
+          "role": "Rolni tanlang",
+          "permission": "Huquqlarni tanlang"
+        },
+        "label": {
+          "createMember": "Telegram foydalanuvchisi",
+          "role": "Ishtirokchi roli",
+          "permission": "Huquqlarni berish"
+        },
+        "errorInput": {
+          "required": "Ushbu maydon to‘ldirilishi shart."
+        }
+      },
+      "rolews": {
+        "title": "Rollar",
+        "titleLitle": "rol",
+        "titleEdit": "Rolni tahrirlash",
+        "titleAdd": "Rol qo‘shish",
+        "titleDelete": "Rolni o‘chirish",
+        "btnEdit": "O‘zgarishlarni saqlash",
+        "btnSave": "Rol yaratish",
+        "btnDelete": "Rolni o‘chirish",
+        "btncancel": "Bekor qilish",
+        "deleteText": "Siz ushbu rolni o‘chirmoqchimisiz?",
+        "-": "",
+
+        "placeholder": {
+          "search": "Rollarni qidirish...",
+          "createRole": "Rol nomini kiriting",
+          "permissions": "Rol uchun huquqlarni tanlang"
+        },
+        "label": {
+          "createRole": "Rol nomi",
+          "permissions": "Rol huquqlari"
+        },
+        "errorInput": {
+          "required": "Ushbu maydon to‘ldirilishi shart."
+        }
+      },
+      "paramsws": {
+        "title": "Tashkilot sozlamalari",
+        "---": "---",
+        "placeholder": {
+          "nameorg": "Tashkilot nomini kiriting",
+          "chattg": "Bog‘langan Telegram chatni tanlang"
+        },
+        "label": {
+          "nameorg": "Tashkilot nomi",
+          "chattg": "Bog‘langan Telegram chat"
+        }
+      },
+      "teamsws": {
+        "title": "Jamoalar",
+        "titleLitle": "jamoni",
+        "titleEdit": "Jamoani tahrirlash",
+        "titleAdd": "Jamoa qo‘shish",
+        "titleDelete": "Jamoani o‘chirish",
+        "btnEdit": "O‘zgarishlarni saqlash",
+        "btnSave": "Jamoa yaratish",
+        "btnDelete": "Jamoani o‘chirish",
+        "btncancel": "Bekor qilish",
+        "participants": "Ishtirokchilar",
+        "deleteText": "Siz ushbu jamoani o‘chirmoqchimisiz?",
+        "-": "",
+
+        "placeholder": {
+          "search": "Jamoalarni qidirish...",
+          "createTeam": "Jamoa nomini kiriting",
+          "teamMembers": "Jamoa uchun ishtirokchilarni tanlang"
+        },
+        "label": {
+          "createTeam": "Jamoa nomi",
+          "teamMembers": "Jamoa ishtirokchilari"
+        },
+        "errorInput": {
+          "required": "Ushbu maydon to‘ldirilishi shart."
+        }
+      },
+      "syncws": {
+        "title": "Qurilmalar"
+      },
+      "------------------------------2": "------------- projects pages -------------",
+      "projectMembers": {
+        "title": "Loyiha ishtirokchilari",
+        "titleLitle": "ishtirokchi",
+        "titleEdit": "Loyiha ishtirokchisini tahrirlash",
+        "titleAdd": "Loyiha ishtirokchisini qo‘shish",
+        "titleDelete": "Loyiha ishtirokchisini o‘chirish",
+        "btnEdit": "O‘zgarishlarni saqlash",
+        "btnSave": "Loyiha ishtirokchisini qo‘shish",
+        "btnDelete": "Loyiha ishtirokchisini o‘chirish",
+        "btncancel": "Bekor qilish",
+        "deleteText": "Siz ushbu loyiha ishtirokchisini o‘chirmoqchimisiz?",
+        "chooseTeam": "Jamoalarni tanlash",
+        "-": "",
+
+        "placeholder": {
+          "search": "Loyiha ishtirokchilarini qidirish...",
+          "member": "Ishtirokchi rolini tanlang",
+          "role": "Rolni tanlang",
+          "permission": "Huquqlarni tanlang"
+        },
+        "label": {
+          "member": "Ishtirokchilarni tanlash",
+          "role": "Rol berish",
+          "permission": "Huquqlar berish"
+        },
+        "errorInput": {
+          "required": "Ushbu maydon to‘ldirilishi shart."
+        }
+      },
+      "projectRole": {
+        "title": "Loyiha rollari",
+        "titleLitle": "rol",
+        "titleEdit": "Loyiha rolini tahrirlash",
+        "titleAdd": "Loyiha rolini qo‘shish",
+        "titleDelete": "Loyiha rolini o‘chirish",
+        "btnEdit": "O‘zgarishlarni saqlash",
+        "btnSave": "Loyiha uchun rol yaratish",
+        "btnDelete": "Loyiha rolini o‘chirish",
+        "btncancel": "Bekor qilish",
+        "deleteText": "Siz ushbu loyihadagi rolni o‘chirmoqchimisiz?",
+        "-": "",
+
+        "placeholder": {
+          "search": "Loyiha rollarini qidirish...",
+          "roleName": "Loyiha uchun rol nomini kiriting",
+          "permissions": "Rol uchun huquqlarni tanlang"
+        },
+        "label": {
+          "roleName": "Rol nomi",
+          "permissions": "Huquqlar berish"
+        },
+        "errorInput": {
+          "required": "Ushbu maydon to‘ldirilishi shart."
+        }
+      },
+      "------------------------------3": "------------- app pages -------------",
+      "payment": {
+        "title": "To‘lovlar",
+        "segmenthistory": "To‘lovlar tarixi",
+        "segmentcard": "Ulangan kartalar",
+        "nodataTitle": "Ma'lumot yo‘q",
+        "nodataDesc": "Hozirda sizda sinxronizatsiya qilingan ma'lumotlar mavjud emas.",
+        "titleAdd": "Karta qo‘shish",
+        "titleEdit": "Kartani tahrirlash",
+        "titleDelete": "Qubnix kartasini o‘chirish",
+        "btnEdit": "O‘zgarishlarni saqlash",
+        "btnSave": "Karta qo‘shish",
+        "btnDelete": "Kartani o‘chirish",
+        "deleteText": "Haqiqatan ham ushbu kartani akkauntingizdan o‘chirmoqchimisiz",
+
+        "placeholder": {
+          "cardnumber": "9999 9999 9999 9999",
+          "cardname": "Karta nomini kiriting",
+          "carddate": "MM/YY",
+          "cardcvvcode": "CVV",
+          "zipcode": "ZIP / Pochta manzili"
+        },
+        "label": {
+          "cardnumber": "Karta raqami",
+          "cardname": "Karta nomi",
+          "carddate": "Karta muddati",
+          "cardcvvcode": "CVV kodi",
+          "zipcode": "ZIP / Pochta manzili"
+        }
+      },
+      "cardlink": {
+        "title": "Karta ulash va to‘lov",
+        "titlelogodesc": "Karta ulash va to‘lov",
+        "optiondollar": "dollar",
+        "opitonrubl": "rubl",
+        "optionsum": "so‘m",
+        "price": "obuna narxi",
+        "month": "oy",
+        "descinfo": "Shartnoma tuzish va zarur hujjatlarni taqdim etish uchun siz bilan ko‘rsatilgan aloqa orqali bog‘lanamiz (hisob-faktura va boshqalar).",
+        "btnpay": "To‘lash",
+        "placeholder": {
+          "cardnumber": "9999 9999 9999 9999",
+          "cardname": "Karta nomini kiriting",
+          "carddate": "MM/YY",
+          "cardcvvcode": "CVV",
+          "zipcode": "ZIP / Pochta manzili",
+          "curency": "Valyuta"
+        },
+        "label": {
+          "cardnumber": "Karta raqami",
+          "cardname": "Karta nomi",
+          "carddate": "Karta muddati",
+          "cardcvvcode": "CVV kodi",
+          "zipcode": "ZIP / Pochta manzili",
+          "currency": "Valyuta"
+        }
+      },
+      "payments": {
+        "title": "Xizmat uchun to‘lov",
+        "titlelogodesc": "Karta ulash va to‘lov",
+        "service": "Xizmat",
+        "nameservice": "Xizmat nomi",
+        "segmentinvidual": "Jismoniy shaxs",
+        "segmentlegal": "Yuridik shaxs",
+        "optiondollar": "dollar",
+        "opitonrubl": "rubl",
+        "optionsum": "so‘m",
+        "month": "oy",
+        "descinfo": "Shartnoma tuzish va zarur hujjatlarni taqdim etish uchun siz bilan ko‘rsatilgan aloqa orqali bog‘lanamiz (hisob-faktura va boshqalar).",
+        "btnpay": "To‘lash ",
+        "placeholder": {
+          "subscriptionPrice": "Obuna narxi",
+          "buyer": "Xaridor"
+        },
+        "label": {
+          "subscriptionPrice": "Obuna narxi",
+          "buyer": "Xaridor",
+          "contactNumber": "Aloqa raqami"
+        }
+      },
+      "offer": {
+        "title": "Tariflar",
+        "popular": "Eng mashhur",
+        "basic": "Asosiy",
+        "servicename": {
+          "sync": "Premium 1",
+          "backup": "Premium 2",
+          "premium": "Premium 3"
+        },
+        "mainTitle": {
+          "sync": "Vazifalarni qurilmalarda sinxronlash",
+          "backup": "Ma’lumotlarni zaxiralash",
+          "premium": "Premium kirish"
+        },
+        "paragraph": {
+          "sync": "Turli qurilmalardan vazifalarga tezkor kirish",
+          "backup": "Vazifalaringiz har doim himoyalangan",
+          "premium": "Maksimal imkoniyatlar samaradorlik uchun"
+        },
+        "description": {
+          "sync": "Vazifalaringizga istalgan vaqtda va istalgan qurilmadan kirish imkoniyati.",
+          "backup": "Vazifalar va o‘zgarishlar tarixining avtomatik zaxiralash.",
+          "premium": "Kengaytirilgan funksiyalar, ustuvor sinxronizatsiya va premium qo‘llab-quvvatlash."
+        },
+        "adventages": {
+          "sync": {
+            "text1": "Barcha qurilmalarni sinxronlash",
+            "text2": "24/7 kirish"
+          },
+          "backup": {
+            "text1": "Ma’lumotlarni avtomatik zaxiralash",
+            "text2": "Ma’lumotlarni himoya qilish",
+            "text3": "Har vaqtda tiklash"
+          },
+          "premium": {
+            "text1": "Premium funksiyalar",
+            "text2": "Ustuvor sinxronizatsiya",
+            "text3": "Maksimal tezlik"
+          }
+        },
+        "serviceNameText": "Xizmat nomi",
+        "subscriptionBenefits": "Obuna afzalliklari",
+        "learnMore": "batafsil",
+        "subscribeFor": "Obuna qilish",
+        "month": "/ oy",
+        "personalAccess": "Siz shaxsiy vazifalaringizga barcha qurilmalardan, ularni qayerda yuritsangiz ham, istalgan vaqtda va istalgan joyda kirish imkoniga ega bo‘lasiz. Juda qulay, agar ofis yoki ish vazifalarini uyda yoki aksincha ishlash kerak bo‘lsa."
+      }
+    }
+  }
+}
